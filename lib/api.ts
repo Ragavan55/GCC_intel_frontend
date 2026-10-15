@@ -1,6 +1,6 @@
 import type { ApiErrorBody } from "@/lib/types";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000/api";
+const API_BASE_URL = "/backend-api";
 
 export class ApiError extends Error {
   readonly status: number;
